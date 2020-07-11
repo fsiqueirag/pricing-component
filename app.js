@@ -6,7 +6,9 @@ let checkboxes = document.getElementById('checkbox');
 let estado = true;
 checkboxes.checked = false;
 slider.addEventListener('click', changePrices);
-
+pricesLeft.innerText = "$199.99";
+pricesMiddle.innerText = "$249.99";
+pricesRight.innerText = "$399.99";
 
 function changePrices() {
     if (estado === false) {
